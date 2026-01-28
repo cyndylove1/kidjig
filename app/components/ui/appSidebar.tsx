@@ -62,7 +62,12 @@ export default function AppSidebar() {
                     </a>
                   </SidebarMenuButton>
                 </TooltipTrigger>
-                <TooltipContent side="right" align="center" sideOffset={8}>
+                <TooltipContent
+                  side="right"
+                  align="center"
+                  sideOffset={8}
+                  className="dark:text-white dark:bg-[#202024] bg-black text-white p-2 rounded-[5px]"
+                >
                   <h2 className="text-[13px]">{item.title}</h2>
                 </TooltipContent>
               </Tooltip>
@@ -130,7 +135,11 @@ export default function AppSidebar() {
                           <SidebarTrigger />
                         </div>
                       </TooltipTrigger>
-                      <TooltipContent side="right" align="center">
+                      <TooltipContent
+                        side="right"
+                        align="center"
+                        className="dark:text-white dark:bg-[#202024]  bg-black text-white p-2 rounded-[5px]"
+                      >
                         <h2 className="text-[13px]">Open sidebar</h2>
                       </TooltipContent>
                     </Tooltip>
