@@ -37,7 +37,7 @@ export default function PlatForm() {
       <div className="flex flex-col lg:flex-row gap-[6px] lg:mx-10 mx-4 mt-20 lg:mt-10">
         {/* simple Integration */}
         <AnimatedItem index={3} delay={0.25}>
-          <div className="border-[0.75px] dark:border-white/5 border-[var(--gray)] md:p-8 p-2 rounded-[10px] lg:h-[520px] h-full">
+          <div className="border-[0.75px] dark:border-white/10 border-[var(--gray)] md:p-8 p-2 rounded-[10px] lg:h-[520px] h-full">
             <div className=" text-center lg:text-start">
               <h3 className="text-[20px] font-[600] pb-3 dark:text-[var(--gray)] text-[var(--blue)]">
                 Simple Integration
@@ -54,7 +54,7 @@ export default function PlatForm() {
         </AnimatedItem>
         <AnimatedItem index={4} delay={0.35}>
           {/*advanced analytics*/}
-          <div className="border-[0.75px] dark:border-white/5 border-[var(--gray)] md:p-8 p-2 rounded-[10px] lg:h-[520px] h-full mt-10 lg:mt-0">
+          <div className="border-[0.75px] dark:border-white/10 border-[var(--gray)] md:p-8 p-2 rounded-[10px] lg:h-[520px] h-full mt-10 lg:mt-0">
             <div className="text-center">
               <h3 className="text-[20px] font-[600] pb-3 dark:text-[var(--gray)] text-[var(--blue)]">
                 Advanced Analytics
@@ -78,7 +78,7 @@ export default function PlatForm() {
       <div className="flex flex-col lg:flex-row gap-[6px] lg:mx-10 mx-4 mt-20 lg:mt-2">
         <AnimatedItem index={5} delay={0.45}>
           {/*document analysis */}
-          <div className="border-[0.75px] dark:border-white/5 border-[var(--gray)] md:p-8 p-2 rounded-[10px] lg:h-[350px] h-full">
+          <div className="border-[0.75px] dark:border-white/10 border-[var(--gray)] md:p-8 p-2 rounded-[10px] lg:h-[350px] h-full">
             <div className="text-center">
               <h3 className="text-[22px] dark:text-[var(--gray)] text-[var(--blue)] font-[600] pb-3">
                 Advanced <br />
@@ -96,7 +96,7 @@ export default function PlatForm() {
         </AnimatedItem>
         <AnimatedItem index={6} delay={0.55}>
           {/*multiple LLM providers*/}
-          <div className="border-[0.75px] dark:border-white/5 border-[var(--gray)] md:p-8 p-2 rounded-[10px] w-full mt-10 lg:mt-0">
+          <div className="border-[0.75px] dark:border-white/10 border-[var(--gray)] md:p-8 p-2 rounded-[10px] w-full mt-10 lg:mt-0">
             <div className=" text-center lg:text-start">
               <h3 className="text-[20px] font-[600] pb-3 dark:text-[var(--gray)] text-[var(--blue)]">
                 Manage Multiple LLM Providers

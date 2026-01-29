@@ -33,7 +33,7 @@ export default function Feature() {
       </div>
       <AnimatedItem index={3} delay={0.35}>
         {/* github image */}
-        <div className="border-[0.75px] dark:border-white/7 border-[var(--gray)] rounded-[10px] mt-6 lg:mt-0 p-2">
+        <div className="border-[0.75px] dark:border-white/10 border-[var(--gray)] rounded-[10px] mt-6 lg:mt-0 p-2">
           <Image src={github} alt="" />
         </div>
       </AnimatedItem>

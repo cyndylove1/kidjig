@@ -48,7 +48,7 @@ export default function Code() {
         </AnimatedItem>
       </div>
       <AnimatedItem index={3} delay={0.25}>
-        <div className="border-[0.75px] dark:border-white/15 border-[var(--gray)] md:mx-10 mx-4 mt-10 rounded-[10px]">
+        <div className="border-[0.75px] dark:border-white/10 border-[var(--gray)] md:mx-10 mx-4 mt-10 rounded-[10px]">
           <div className="flex justify-between items-center dark:text-white text-[var(--blue)] p-2 p-4">
             <h2 className="md:text-xl text-lg font-[600]">
               Make your first API call
@@ -77,7 +77,7 @@ export default function Code() {
       
       {/* Instructions */}
       <AnimatedItem index={4} delay={0.35}>
-        <div className="border-[0.75px] dark:border-white/15 border-[var(--gray)] md:mx-10 p-2 md:p-4 h-[150px] m-4 rounded-[10px]">
+        <div className="border-[0.75px] dark:border-white/10 border-[var(--gray)] md:mx-10 p-2 md:p-4 h-[150px] m-4 rounded-[10px]">
           <div className="bg-[#181818] p-4 rounded-[10px]">
             <h2 className="text-white font-[600] text-[16px]">Authorization</h2>
             <p className="py-2 text-[13px] text-[var(--gray)]">
