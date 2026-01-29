@@ -29,7 +29,7 @@ export default function Code() {
           </h2>
         </AnimatedItem>
         <AnimatedItem index={1} delay={0.1}>
-          <p className="py-4 dark:text-[var(--gray)] text-black max-w-xl mx-auto">
+          <p className="py-4 dark:text-[var(--gray)] text-black">
             Connect to leading Ai providers through one streamlined
             interface.Compatible with existing OpenAi clients.
           </p>

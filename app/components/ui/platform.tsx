@@ -18,7 +18,7 @@ export default function PlatForm() {
           </h2>
         </AnimatedItem>
         <AnimatedItem index={1} delay={0.1}>
-          <p className="dark:text-[var(--gray)] text-black text-[16px] max-w-xl mx-auto">
+          <p className="dark:text-[var(--gray)] text-black text-[16px] max-w-lg mx-auto">
             Our platform simplifies the API-building process, allowing you to
             monetize, analyze, and protect endpoints.
           </p>
@@ -42,8 +42,8 @@ export default function PlatForm() {
               <h3 className="text-[20px] font-[600] pb-3 dark:text-[var(--gray)] text-[var(--blue)]">
                 Simple Integration
               </h3>
-              <p className="text-[14px] pb-10 max-w-xl mx-auto dark:text-[var(--gray)] text-black">
-                Simply change the endpoints in your existing setup, and you're
+              <p className="text-[14px] pb-10 mx-auto dark:text-[var(--gray)] text-black">
+                Simply change the endpoints in your existing setup, and you're 
                 ready to go.
               </p>
             </div>
@@ -59,7 +59,7 @@ export default function PlatForm() {
               <h3 className="text-[20px] font-[600] pb-3 dark:text-[var(--gray)] text-[var(--blue)]">
                 Advanced Analytics
               </h3>
-              <p className="text-[13px] max-w-xl mx-auto dark:text-[var(--gray)] text-black">
+              <p className="text-[13px] max-w-lg mx-auto dark:text-[var(--gray)] text-black">
                 Access and Orchestrate Multiple AI Providers in a Secure,
                 Enterprise-Grade Environment with Advanced Analytics
               </p>
@@ -101,7 +101,7 @@ export default function PlatForm() {
               <h3 className="text-[20px] font-[600] pb-3 dark:text-[var(--gray)] text-[var(--blue)]">
                 Manage Multiple LLM Providers
               </h3>
-              <p className="text-[13px] dark:text-[var(--gray)] text-black ">
+              <p className="text-[13px] dark:text-[var(--gray)] text-black max-w-lg">
                 Access and manage multiple AI providers with Enterprise- <br />
                 grade secure environment.
               </p>

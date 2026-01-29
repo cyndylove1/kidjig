@@ -16,9 +16,9 @@ export default function Feature() {
           </h2>
         </AnimatedItem>
         <AnimatedItem index={1} delay={0.1}>
-          <p className="dark:text-[var(--gray)] text-black pt-6 max-w-xl mx-auto">
-            Connect to leading AI providers through one streamlined interface.
-            Compatible with existing OpenAI clients and offering an intuitive
+          <p className="dark:text-[var(--gray)] text-black max-w-md">
+            Connect to leading AI providers through one <br /> streamlined interface.
+            Compatible with existing <br /> OpenAI clients and offering  an intuitive
             REST API
           </p>
         </AnimatedItem>
